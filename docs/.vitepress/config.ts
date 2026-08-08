@@ -43,12 +43,14 @@ export default defineConfig({
         { text: '人工智能', link: '/路线/人工智能' },
         { text: '航空宇航', link: '/路线/航空宇航' },
       ] },
-      { text: '生活', collapsed: true, items: [
-        { text: '食在桂航', link: '/生活/食在桂航' },
-      ] },
       { text: '考研', collapsed: true, items: [
         { text: '考研', link: '/考研/考研' },
         { text: '择业', link: '/考研/择业' },
+      ] },
+      { text: '生活', collapsed: true, items: [
+        { text: '食在桂航', link: '/生活/食在桂航' },
+      ] },
+      { text: '社团', collapsed: true, items: [
         { text: '社团', link: '/社团/' },
       ] },
     ],
