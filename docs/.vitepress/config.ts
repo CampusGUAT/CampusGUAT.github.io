@@ -5,6 +5,9 @@ export default defineConfig({
   title: 'CampusGUAT',
   description: '桂林航天学子的成长指南',
   appearance: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/campusguat-visual.svg' }],
+  ],
   themeConfig: {
     siteTitle: 'CampusGUAT',
     logo: '/logo.png',
