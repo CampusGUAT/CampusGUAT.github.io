@@ -19,7 +19,7 @@ export default defineConfig({
       { text: '学业', link: '/学业/课程' },
       { text: '路线', link: '/路线/人工智能' },
       { text: '生活', link: '/生活/食在桂航' },
-      { text: '社团', link: '/社团/社团' },
+      { text: '社团', link: '/社团/' },
       { text: '考研', link: '/考研/考研' },
     ],
     sidebar: {
@@ -54,7 +54,7 @@ export default defineConfig({
         { text: '食在桂航', link: '/生活/食在桂航' },
       ] }],
       '/社团/': [{ text: '社团', items: [
-        { text: '社团', link: '/社团/社团' },
+        { text: '社团', link: '/社团/' },
       ] }],
       '/考研/': [{ text: '考研', items: [
         { text: '考研', link: '/考研/考研' },
