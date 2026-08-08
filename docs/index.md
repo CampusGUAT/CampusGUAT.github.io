@@ -1,6 +1,7 @@
 ---
 layout: home
 hero:
+  name: CampusGUAT
   text: 适合桂航学子的成长指南
   tagline: Welcome to GUAT.
   image:
@@ -31,5 +32,3 @@ features:
     details: 保研、考研、竞赛、实习与就业选择。
     link: /升学与就业/
 ---
-
-<HomeSearchBar />
