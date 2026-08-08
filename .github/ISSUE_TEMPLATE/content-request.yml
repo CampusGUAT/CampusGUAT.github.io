@@ -1,0 +1,25 @@
+name: 内容征集
+description: 提交校园经验、选题建议或资料线索
+title: '[征集] '
+labels: ['内容征集']
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: 建议归属栏目
+      options:
+        - 前言
+        - 启发
+        - 入学
+        - 学业
+        - 路线
+        - 考研
+        - 生活
+        - 社团
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容或选题说明
+      description: 可说明经历、适用范围、时间和可核实的信息来源。
+    validations:
+      required: true
