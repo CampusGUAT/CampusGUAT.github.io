@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 📖 开始阅读
-      link: /入学篇/
+      link: /入学/开学携带
     - theme: alt
       text: GitHub
       link: https://github.com/CampusGUAT

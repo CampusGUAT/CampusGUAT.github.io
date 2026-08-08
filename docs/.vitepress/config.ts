@@ -18,6 +18,7 @@ export default defineConfig({
       { text: '前言', collapsed: true, items: [
         { text: '写在前面的话', link: '/前言/写在前面的话' },
         { text: '征集', link: '/前言/征集' },
+        { text: '贡献指南', link: '/前言/贡献指南' },
       ] },
       { text: '启发', collapsed: true, items: [
         { text: '关于桂航', link: '/启发/关于桂航' },
