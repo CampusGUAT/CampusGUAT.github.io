@@ -7,6 +7,7 @@ export default defineConfig({
   appearance: true,
   themeConfig: {
     siteTitle: 'CampusGUAT',
+    logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
       { text: '入学篇', link: '/入学篇/' },
