@@ -17,28 +17,40 @@ export default defineConfig({
     ],
     sidebar: {
       '/入学篇/': [
-        { text: '入学篇', items: [
-          { text: '新生报到清单', link: '/入学篇/' },
-          { text: '校园第一周', link: '/入学篇/校园第一周' },
-        ] },
+        {
+          text: '🎒 入学篇',
+          collapsed: false,
+          items: [
+            { text: '新生指南', link: '/入学篇/' },
+          ],
+        },
       ],
       '/学习篇/': [
-        { text: '学习篇', items: [
-          { text: '课程与选课', link: '/学习篇/' },
-          { text: '考试复习方法', link: '/学习篇/考试复习方法' },
-        ] },
+        {
+          text: '📚 学习篇',
+          collapsed: false,
+          items: [
+            { text: '学习指南', link: '/学习篇/' },
+          ],
+        },
       ],
       '/生活篇/': [
-        { text: '生活篇', items: [
-          { text: '校园生活', link: '/生活篇/' },
-          { text: '办事与求助', link: '/生活篇/办事与求助' },
-        ] },
+        {
+          text: '🧭 生活篇',
+          collapsed: false,
+          items: [
+            { text: '生活指南', link: '/生活篇/' },
+          ],
+        },
       ],
       '/升学与就业/': [
-        { text: '升学与就业', items: [
-          { text: '发展路线', link: '/升学与就业/' },
-          { text: '保研、考研与实习', link: '/升学与就业/保研考研实习' },
-        ] },
+        {
+          text: '🚀 升学与就业',
+          collapsed: false,
+          items: [
+            { text: '发展指南', link: '/升学与就业/' },
+          ],
+        },
       ],
     },
     outline: 'deep',
