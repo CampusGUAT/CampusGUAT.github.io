@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'CampusGUAT',
-  description: '桂林理工大学学生生存与成长指南',
+  description: '桂林航天学子的成长指南',
   appearance: true,
   themeConfig: {
     siteTitle: 'CampusGUAT',
@@ -48,7 +48,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/CampusGUAT' },
     ],
     footer: {
-      message: '由桂工学生共同维护',
+      message: '目前由遥测成员共同维护',
       copyright: 'CampusGUAT · 内容仅供参考，请以学校最新通知为准',
     },
   },

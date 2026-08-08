@@ -31,4 +31,7 @@ features:
     title: 提前做规划
     details: 保研、考研、竞赛、实习与就业选择。
     link: /升学与就业/
+  - icon: 🔍
+    title: 全文搜索
+    details: 内置本地搜索，快速找到你需要的内容。
 ---

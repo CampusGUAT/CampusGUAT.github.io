@@ -1,52 +1,47 @@
-:root {
-  --vp-home-hero-name-color: #213547;
-  --vp-home-hero-name-background: none;
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #dff4ff 50%, #f0e7ff 50%);
-  --vp-home-hero-image-filter: blur(52px);
+/* ===== VitePress Hero 区域样式覆盖 ===== */
+
+/* 让 hero 区域的图文垂直居中 */
+.VPHero.has-image .container {
+  align-items: center;
 }
 
+/* Hero 标题渐变字体 */
+.VPHero .name {
+  background: linear-gradient(135deg, #218da1 0%, #49b8c8 40%, #78d6b0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+/* Hero 副标题微调 */
 .VPHero .text {
-  color: #213547;
-  text-shadow: 0 2px 18px rgb(115 175 255 / 25%);
+  font-weight: 500;
+  color: #467384;
 }
 
-.VPHero .tagline {
-  color: #47627a;
+/* 增大 hero 图片尺寸 */
+.VPHero.has-image .image-container {
+  max-width: 480px;
 }
 
-/* Keep the CampusGUAT visual on the right side of the hero copy. */
-@media (min-width: 960px) {
-  .VPHero .container {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
-    align-items: center;
-    gap: 48px;
+.VPHero.has-image .image-src {
+  max-width: 100%;
+  max-height: 480px;
+}
+
+/* ===== 小屏幕适配 ===== */
+@media (max-width: 960px) {
+  .VPHero.has-image .image-container {
+    max-width: 320px;
   }
 
-  .VPHero .main {
-    grid-column: 1;
-    grid-row: 1;
+  .VPHero.has-image .image-src {
+    max-height: 320px;
   }
 
-  .VPHero .image {
-    grid-column: 2;
-    grid-row: 1;
-    justify-self: center;
-    width: min(100%, 420px);
+  .VPHero .name {
+    letter-spacing: -1px;
   }
-}
-
-.VPHero .name,
-.VPHero .text {
-  background-image: none !important;
-  -webkit-text-fill-color: currentColor;
-}
-
-.dark .VPHero .name,
-.dark .VPHero .text {
-  color: #f4f8ff;
-}
-
-.dark .VPHero .tagline {
-  color: #c5d8ea;
 }
