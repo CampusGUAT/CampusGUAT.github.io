@@ -29,7 +29,7 @@ export default defineConfig({
       { text: '入学', link: '/入学/', collapsed: true, items: [
         { text: '开学携带', link: '/入学/开学携带' },
         { text: '新生群', link: '/入学/新生群' },
-        { text: '报到', link: '/入学/报到' },
+        { text: '入学流程', link: '/入学/入学流程' },
         { text: '快问快答', link: '/入学/快问快答' },
       ] },
       { text: '学业', link: '/学业/', collapsed: true, items: [
