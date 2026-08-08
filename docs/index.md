@@ -18,17 +18,17 @@ features:
   - icon: 🎒
     title: 入学不迷路
     details: 报到、选宿舍、校园网络和第一周行动清单。
-    link: /入学篇/
+    link: /入学/开学携带
   - icon: 📚
     title: 学习有方法
     details: 课程、考试、资料整理和专业学习路线。
-    link: /学习篇/
+    link: /学业/课程
   - icon: 🧭
     title: 生活少踩坑
     details: 校园办事、生活服务、安全提醒和求助渠道。
-    link: /生活篇/
+    link: /生活/食在桂航
   - icon: 🚀
     title: 提前做规划
     details: 保研、考研、竞赛、实习与就业选择。
-    link: /升学与就业/
+    link: /路线/人工智能
 ---
