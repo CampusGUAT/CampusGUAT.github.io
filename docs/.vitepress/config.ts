@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
     ],
     sidebar: [
-      { text: '前言', collapsed: false, items: [
+      { text: '前言', collapsed: true, items: [
         { text: '写在前面的话', link: '/前言/写在前面的话' },
         { text: '征集', link: '/前言/征集' },
       ] },
@@ -45,12 +45,10 @@ export default defineConfig({
       { text: '生活', collapsed: true, items: [
         { text: '食在桂航', link: '/生活/食在桂航' },
       ] },
-      { text: '社团', collapsed: true, items: [
-        { text: '社团', link: '/社团/' },
-      ] },
       { text: '考研', collapsed: true, items: [
         { text: '考研', link: '/考研/考研' },
         { text: '择业', link: '/考研/择业' },
+        { text: '社团', link: '/社团/' },
       ] },
     ],
     editLink: {
