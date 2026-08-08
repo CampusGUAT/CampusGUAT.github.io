@@ -20,7 +20,6 @@ export default defineConfig({
         { text: '征集', link: '/前言/征集' },
         { text: '贡献指南', link: '/前言/贡献指南' },
       ] },
-      { text: '个人分享', link: '/个人分享/', collapsed: true, items: [] },
       { text: '启发', link: '/启发/', collapsed: true, items: [
         { text: '关于桂航', link: '/启发/关于桂航' },
         { text: '怎么做', link: '/启发/怎么做' },
@@ -67,6 +66,7 @@ export default defineConfig({
       { text: '生活', link: '/生活/', collapsed: true, items: [
         { text: '食在桂航', link: '/生活/食在桂航' },
       ] },
+      { text: '个人分享', link: '/个人分享/', collapsed: true, items: [] },
       { text: '社团', link: '/社团/', collapsed: true, items: [
       ] },
     ],
