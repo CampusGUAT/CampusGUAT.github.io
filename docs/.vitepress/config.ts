@@ -20,6 +20,7 @@ export default defineConfig({
         { text: '征集', link: '/前言/征集' },
         { text: '贡献指南', link: '/前言/贡献指南' },
       ] },
+      { text: '个人分享', link: '/个人分享/', collapsed: true, items: [] },
       { text: '启发', link: '/启发/', collapsed: true, items: [
         { text: '关于桂航', link: '/启发/关于桂航' },
         { text: '怎么做', link: '/启发/怎么做' },
@@ -43,9 +44,25 @@ export default defineConfig({
         { text: '人工智能', link: '/路线/人工智能' },
         { text: '航空宇航', link: '/路线/航空宇航' },
       ] },
-      { text: '考研', link: '/考研/', collapsed: true, items: [
-        { text: '考研', link: '/考研/考研' },
-        { text: '择业', link: '/考研/择业' },
+      { text: '未来', link: '/未来/', collapsed: true, items: [
+        {
+          text: '考研',
+          link: '/未来/考研/',
+          collapsed: true,
+          items: [
+            { text: '备考指南', link: '/未来/考研/备考指南' },
+            { text: '择校经验', link: '/未来/考研/择校经验' },
+          ],
+        },
+        {
+          text: '就业',
+          link: '/未来/就业/',
+          collapsed: true,
+          items: [
+            { text: '如何找实习', link: '/未来/就业/如何找实习' },
+            { text: '投简历', link: '/未来/就业/投简历' },
+          ],
+        },
       ] },
       { text: '生活', link: '/生活/', collapsed: true, items: [
         { text: '食在桂航', link: '/生活/食在桂航' },
