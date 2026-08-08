@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: CampusGUAT
-  text: 适合桂航学子的成长指南
+  text: 适合桂航学子的大学成长指南
   tagline: Welcome to GUAT.
   image:
     src: /campusguat-visual.svg

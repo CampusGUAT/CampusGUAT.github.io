@@ -17,14 +17,12 @@ export default defineConfig({
     sidebar: [
       { text: '前言', link: '/前言/', collapsed: true, items: [
         { text: '写在前面的话', link: '/前言/写在前面的话' },
-        { text: '征集', link: '/前言/征集' },
         { text: '贡献指南', link: '/前言/贡献指南' },
       ] },
       { text: '启发', link: '/启发/', collapsed: true, items: [
         { text: '关于桂航', link: '/启发/关于桂航' },
         { text: '怎么做', link: '/启发/怎么做' },
         { text: '失败不可怕', link: '/启发/失败不可怕' },
-        { text: '提问的智慧', link: '/启发/提问的智慧' },
       ] },
       { text: '入学', link: '/入学/', collapsed: true, items: [
         { text: '开学携带', link: '/入学/开学携带' },

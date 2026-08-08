@@ -2,13 +2,12 @@
 
 ## 关于本站
 
-CampusGUAT 是一份面向桂林航天工业学院学生的协作式校园知识库。
+CampusGUAT 作为一个桂航学子的大学成长指南，
 
 它从真实的校园经验出发，记录从入学、学习到生活和未来选择中可能遇到的问题，希望帮助桂航学子少走一些弯路，多获得一点确定感。
 
-本站内容来自同学们的共同整理。不同专业、年级和经历都会带来不同的视角，因此部分内容可能带有个人经验的局限性。这里的文章不追求替代学校通知，也不提供唯一答案，而是提供一些可以参考的思路、方法和信息入口。
+本站大部分内容由遥测成员的共同整理。绝大多数同学来自人工智能学院和航空宇航学院，因此部分内容可能带倾向性和局限性。欢迎补充。
 
-经验会过时，流程会变化。涉及收费、考试、学籍和学校政策的内容，请最终以学校最新通知和官方渠道为准。
 
 ## 栏目说明
 
@@ -24,7 +23,7 @@ CampusGUAT 是一份面向桂林航天工业学院学生的协作式校园知识
 
 ## 关于贡献
 
-CampusGUAT 的源码托管在 [GitHub](https://github.com/CampusGUAT/CampusGUAT.github.io) 上，欢迎每一位桂航同学参与维护。
+CampusGUAT 的源码托管在 [GitHub](https://github.com/CampusGUAT/CampusGUAT.github.io) 上，欢迎每一位同学参与。
 
 你可以在文章底部点击“在 GitHub 编辑本页”，直接修改内容并提交 Pull Request；也可以通过 [内容征集 Issue](https://github.com/CampusGUAT/CampusGUAT.github.io/issues/new?template=content-request.yml) 或 [内容纠错 Issue](https://github.com/CampusGUAT/CampusGUAT.github.io/issues/new?template=content-correction.yml) 提交建议。
 
@@ -43,6 +42,11 @@ CampusGUAT 的源码托管在 [GitHub](https://github.com/CampusGUAT/CampusGUAT.
 感谢 [VitePress](https://vitepress.dev/zh/) 等开源项目，为 CampusGUAT 提供了稳定的文档站基础。
 
 感谢 [SurviveXJTU](https://survivexjtu.github.io/) 等校园知识库项目的启发，让我们看到学生可以共同记录和维护属于自己的校园信息。
+致谢
+
+感谢 [上海交大生存指南](https://survivesjtu.gitbook.io/survivesjtumanual)，SurviveXJTU 的诞生离不开上海交大生存指南的启发，这本令人敬畏的书籍给予了笔者无尽的灵感。
+
+感谢 [钱·入学指南](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzMzUxNDk1OA==&action=getalbum&album_id=3584767703459889164#wechat_redirect)，我们的初衷相同，我们的理想相似，本指南部分内容参考了钱·入学指南，并感谢钱学森书院的作者们的无私奉献。
 
 也感谢所有愿意分享经验、纠正错误和帮助维护本站的桂航同学。
 
